@@ -1,0 +1,35 @@
+Copilot said:
+
+If you're working in the Microsoft/Azure engineering environment, Service360 (S360) is typically a dashboard/portal used to track and manage customer support cases, incidents, escalations, service health issues, and engineering engagements across Microsoft services. It is commonly used by Microsoft support and engineering teams alongside IcM.
+
+How S360 and IcM relate
+Service360 (S360) → Customer/service-facing tracking dashboard.
+IcM (Incident Management) → Internal incident tracking and resolution system.
+
+A typical flow is:
+Customer reports issue
+        ↓
+Support case created in Service360
+        ↓
+Engineering investigates
+        ↓
+IcM created (if platform/service incident exists)
+        ↓
+Engineering updates IcM
+        ↓
+Status flows back to Service360
+        ↓
+Customer receives updates
+
+What you might see in Service360
+Support tickets/cases
+Escalations
+Incident references (IcM IDs)
+Service health status
+Customer impact information
+Resolution updates
+SLA tracking
+Common terminology
+S360 Case ID → Support case number.
+IcM ID → Internal Microsoft incident number.
+Case linked to IcM → Customer issue has been associated with an ongoing Azure/platform incident.
